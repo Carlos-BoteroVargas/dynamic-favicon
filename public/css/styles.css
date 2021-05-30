@@ -1,0 +1,8 @@
+body {
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 20%,rgba(210,210,210,1) 100%); 
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font: 500 100%/1.4 system-ui, sans-serif;
+}

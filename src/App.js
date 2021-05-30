@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import React from 'react';
 
-function App() {
+import useTimeFavicon from "./hooks/useTimeFavicon"
+
+function App(props) {
+  useTimeFavicon()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div align='center'>
+      Check the favicon! 
+      <br />
+      <br />
+      It changes with the time. 🤯🤯🤯
     </div>
   );
 }
